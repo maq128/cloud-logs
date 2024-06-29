@@ -1,0 +1,12 @@
+{
+  "name": "gen-logs",
+  "dependencies": {
+    "redis-logger": "file:../../../uni_modules/redis-logger/uniCloud/cloudfunctions/common/redis-logger"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  },
+  "cloudfunction-config": {
+    "path": "/http/gen"
+  }
+}
